@@ -1,0 +1,120 @@
+.all-form{
+  padding: 100px;
+}
+.content{
+  padding-top: 100px;
+}
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-list {
+    list-style-type: none;
+    padding: 33px;
+  }
+  
+  .post-item {
+    padding: 15px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-content-wrapper {
+    flex-grow: 1;
+  }
+  
+  .post-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .post-content {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .post-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-button {
+    width: 40px; /* Đặt cùng chiều rộng cho cả hai nút */
+    height: 40px; /* Đặt cùng chiều cao cho cả hai nút */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    color: #0056b3;
+  }
+  
+  .delete-button {
+    color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    color: #c82333;
+  }
+  
+  .edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }

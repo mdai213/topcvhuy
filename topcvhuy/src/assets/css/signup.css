@@ -1,0 +1,60 @@
+
+.form-signup {
+  max-width: 400px; /* Điều chỉnh độ rộng tối đa của form */
+  margin: 0 auto; /* Canh giữa form */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(39, 193, 9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.form-signup h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 350px;
+  height: 40px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 0 10px; /* Điều chỉnh padding */
+  color: black;
+}
+
+.input-group label {
+  color: black;
+}
+
+.Agree label {
+  color: black;
+}
+
+
+.btnLogin {
+  width: 100%; /* Căn chỉnh nút đăng ký để lấp đầy form */
+}
+
+.signupLink p {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.signupLink a {
+  color: red;
+  text-decoration: none;
+}
+
+.signupLink a:hover {
+  text-decoration: underline;
+}
+
+

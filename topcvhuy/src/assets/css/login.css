@@ -1,0 +1,149 @@
+.wrapper {
+    max-width: 600px;
+    
+    margin: 20px auto;
+    padding: 100px;
+    border-radius: 5px;
+    
+}
+
+.form-login {
+    
+    background-color: rgb(39, 193, 9) ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.form-login h2{
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.input-group {
+    font-size: 16px; 
+    position: relative;
+    margin-bottom: 20px; 
+    width: 300px;
+    color: #fff;
+}
+.input-group input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0 35px 0 10px;
+    color: black;
+    
+}
+
+
+
+.input-group input:valid ~ label {
+    top: -5px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+    
+}
+
+.remember{
+    margin: 0 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btnLogin {
+    height: 50px;
+    width: 80%;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.btnLogin:hover {
+    background-color: rgb(190, 4, 4);
+}
+
+.signupLink p {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.signupLink a {
+    color: red;
+    text-decoration: none;
+}
+
+.signupLink a:hover {
+    text-decoration: underline;
+}
+
+.Agree{
+    margin: 0 0;
+    margin-bottom: 20px;
+}
+
+
+#recoveryForm {
+    display: none;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.recoveryOptions {
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.recoveryOptions label {
+    margin-right: 10px; 
+    color: #fff;
+}
+
+#recoveryForm button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#recoveryForm button:hover {
+    background-color: rgb(190, 4, 4);
+}
+
+.form-login {
+    margin-top: 0px;
+}
+body{
+    background-image:url("@/assets/image/mauxanh.jpg");
+    background: cover;
+    background-size: 2500px;
+    background-repeat:  no-repeat;
+}

@@ -1,0 +1,144 @@
+CSS cho phần sidebar
+
+.father {
+    padding-left: 10px;
+  }
+  
+  .wrapper {
+    display: flex;
+    padding-left: 0px;
+    height: 100vh; /* Sử dụng toàn bộ chiều cao của viewport */
+    padding-right: 100px;
+  }
+  
+  /* Sidebar và container sẽ có chiều cao bằng nhau */
+  .sidebar,
+  .container {
+    height: 100%; /* Chiều cao 100% của .wrapper */
+  }
+  
+  .sidebar {
+    width: 448px;
+    background-color: #fecaca;
+    padding: 20px;
+    box-sizing: border-box; /* Đảm bảo padding không thêm vào chiều rộng */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-pic-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 16px;
+    padding-left: 42px;
+  }
+  
+  .profile-pic {
+    width: 128px;
+    height: 128px;
+    padding: 12px 3px;
+    margin-top: 16px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 2px 2px 3px gray;
+  }
+  
+  .file-input {
+    width: 96px;
+  }
+  
+  .form-input {
+    padding-top: 36px;
+    gap: 10px;
+  }
+  
+  .form-control-lg {
+    width: 260px;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    width: 260px;
+    margin-left: 4rem;
+  }
+  
+  .section-header {
+    padding-left: 16px;
+  }
+  
+  .section-header h3 {
+    margin: 0;
+  }
+  
+  .form-section {
+    padding: 16px;
+    flex-grow: 1; /* Để chiếm không gian còn lại trong sidebar */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-fieldset {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 24px;
+    padding: 16px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: -60px;
+  }
+  
+  .form-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .input-field {
+    width: 350px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  /* CSS cho phần container */
+  .container {
+    width: 600px;
+    padding: 12px;
+    background-color: white;
+    box-sizing: border-box; /* Đảm bảo padding không thêm vào chiều rộng */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Để chiếm không gian còn lại trong wrapper */
+  }
+  
+  .form-label h4 {
+    margin: 0 0 8px 0;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  .form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    margin: 9px;
+}
+  
